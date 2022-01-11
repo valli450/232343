@@ -1,0 +1,136 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Karla;
+    
+}
+
+/* Base Style */
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    position: absolute;
+    left: 35%;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+/* First container */
+
+.frst{
+    width: 560px;
+    background-color: white;
+    padding: 35px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.hhd{
+    margin-bottom: 20px;
+}
+
+.hhd h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.grn {
+    margin-bottom: 20px;
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.mntxt {
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+}
+
+/* Bottom */
+
+.bttm{
+    display: flex;
+}
+
+/* Left container */
+
+.sub {
+    padding: 35px;
+    background-color: hsl(179, 62%, 43%);
+    width: 240px;
+}
+
+.snd{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+}
+
+.price {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.opc{
+    margin-bottom: 5px;
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+
+.bgpr{
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.abt{
+    color: hsl(204, 43%, 93%);
+}
+
+.btn{
+    padding-top: 5px;
+}
+
+.sgn{
+    width: 250px;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+/* Right container */
+.lst {
+    padding: 35px;
+    background-color: hsl(179, 62%, 48%);
+    width: 250px;
+}
+
+.mnlst h3{
+    color: hsl(204, 43%, 93%);
+}
+
+.lsttxt ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lsttxt ul li{
+    list-style-type: none;
+    color: hsl(204, 43%, 93%);
+}
+
+/* Screens */
+
+@media (max-width: 375px) {
+    .bttm{
+        display: block;
+    }
+}
